@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700&display=swap);
+
+
+.container {
+	width: 1600px;
+	margin: 0 auto;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	height: 778px;
+	background: #474747;
+	width: 100%;
+	align-items: center;
+	gap: 130px 0;
+}
+
+.footer-content {
+	width: 1296px;
+	height: 419px;
+	margin: 0 auto;
+	margin-top: 120px;
+	display: flex;
+	gap: 0 135px;
+}
+
+.bistro-column {
+	width: 293px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px 0;
+}
+
+.logo-group {
+	display: flex;
+	align-items: center;
+	gap: 0 13px;
+}
+
+.logo {
+	width: 56px;
+	height: 55px;
+}
+
+.logo-text {
+	color: #FFF;
+	font-family: Playfair Display;
+	font-size: 32.67px;
+	font-style: italic;
+	font-weight: 600;
+	line-height: 29.333px;
+	letter-spacing: 0.5px;
+}
+
+
+.logo-frase {
+	color: var(--neutral-04, #ADB29E);
+
+	/* Body/16px/Regular */
+	font-family: DM Sans;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	/* 150% */
+}
+
+.social {
+	display: flex;
+	gap: 0 12px;
+}
+
+.social .icon {
+	width: 35px;
+	height: 35px;
+}
+
+
+.pages-column {
+	width: 330px;
+	display: flex;
+	gap: 0 120px;
+}
+
+.col {
+	list-style-type: none;
+	display: flex;
+
+	flex-direction: column;
+	gap: 20px 0;
+}
+
+.col li {
+	color: var(--neutral-03, #DBDFD0);
+
+	/* Body/16px/Regular */
+	font-family: DM Sans;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px; /* 150% */
+	letter-spacing: 0.9px;
+}
+
+.col li:first-child,
+.follow {
+	color: var(--neutral-01, #FFF);
+	margin-bottom: 20px;
+
+	/* Body/16px/Bold */
+	font-family: DM Sans;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px;
+	/* 150% */
+}
+
+.follow-us-column {
+	width: 403px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px 0;
+}
+
+.fotos {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+
+.copyright {
+	color: var(--neutral-04, #ADB29E);
+	font-family: 'DM Sans', sans-serif;
+	/* Body/16px/Regular */
+	font-family: DM Sans;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	/* 150% */
+}

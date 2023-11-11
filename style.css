@@ -148,3 +148,149 @@
 	line-height: 24px;
 	/* 150% */
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.vse {
+    width: 1600px;
+    height: 868px;
+    background: #ffffff;
+}
+
+
+
+p:nth-of-type(1) {
+    font-family: Playfair Display;
+    font-size: 55px;
+    font-style: normal;
+    width: 550px;
+    margin-left: 152px;
+    margin-top: 120px;
+}
+
+.boxes {
+    margin-left: 152px;
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.img_box {
+    margin-top: 64px;
+    width: 306px;
+    height: 320px;
+
+}
+
+h3 {
+    color: var(--neutral-07, #2C2F24);
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 30px;
+}
+
+.p {
+
+    color: var(--neutral-06, #6a6b69);
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+}
+
+.shef {
+    width: 1600px;
+    height: 868px;
+    background: var(--neutral-02, #F9F9F7);
+}
+
+.shef img:nth-of-type(1) {
+    margin-top: 120px;
+    margin-left: 152px;
+}
+
+.shef img:nth-of-type(2) {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 24px;
+}
+
+.shef img:nth-of-type(3) {
+    position: absolute;
+    margin-top: 507px;
+    margin-left: 24px;
+}
+
+p2 {
+    width: 461px;
+    position: absolute;
+    margin-top: 249px;
+    margin-left: 404px;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60.5px;
+}
+
+p3 {
+    color: var(--neutral-06, #414536);
+    width: 400px;
+    position: absolute;
+    margin-top: 390px;
+    margin-left: 404px;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.box_svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 65px;
+    background: #AD343E;
+
+}
+
+svg {
+    color: #2C2F24;
+    width: 15.07px;
+    height: 15.07px;
+    flex-shrink: 0;
+
+}
+
+.svg {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    height: 300px;
+    margin-top: -250px;
+    margin-left: 990px;
+}
+
+p5 {
+    color: var(--neutral-07, #2C2F24);
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    position: absolute;
+    width: 300px;
+    margin-left: 370px;
+}
